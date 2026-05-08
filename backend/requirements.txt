@@ -1,0 +1,30 @@
+# IdeaForge — Python Backend Dependencies
+# Install with: pip install -r requirements.txt
+#
+# Python 3.9+ required. Python 3.11 recommended.
+
+# ── Web Framework ──────────────────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+
+# ── HuggingFace / ML ───────────────────────────────────────────────────────
+transformers==4.41.2
+# torch: install the version matching your system from https://pytorch.org/get-started/locally/
+# CPU-only (default, works everywhere):
+torch==2.3.0
+# If you have an NVIDIA GPU, replace the line above with the CUDA wheel, e.g.:
+#   pip install torch==2.3.0 --index-url https://download.pytorch.org/whl/cu121
+
+accelerate==0.30.0
+sentencepiece==0.2.0
+protobuf==5.27.0
+huggingface-hub==0.23.2
+tokenizers>=0.19.1
+
+# ── Optional: 4-bit / 8-bit quantization (NVIDIA GPU only) ────────────────
+# Reduces VRAM usage for large models. Uncomment if you have CUDA:
+# bitsandbytes==0.43.1
+
+# ── Optional: faster tokenization ─────────────────────────────────────────
+# einops>=0.7.0

@@ -1,0 +1,68 @@
+# Node modules
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Large AI/LLM model folders
+models/
+checkpoints/
+weights/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Dataset folders
+datasets/
+data/
+
+# Logs
+*.log
+
+# Build folders
+dist/
+build/
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Build folders
+dist/
+build/
+
+# AI/LLM
+models/
+datasets/
+.cache/
+
+# VS Code
+.vscode/
